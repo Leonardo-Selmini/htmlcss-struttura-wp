@@ -13,12 +13,12 @@
 }
 
 /* debug section */
-.debug#header-top{
+#header-top.debug{
   height: 100px;
   background-color:#e0ffcd;
 }
 
-.debug#header-bottom{
+#header-bottom.debug{
   height: 300px;
   background-color:#fdffcd;
 }
@@ -32,6 +32,12 @@ nav.debug {
   height: 300px;
   background-color: #ffebbb;
 }
+
+article.debug {
+  height: 300px;
+  background-color: #ffebbb;
+}
+
 
 /* header - header top */
 #header-top { 
@@ -61,6 +67,12 @@ nav {
 /* main - aside left */
 #aside-left {
   width: 20%;
-  margin: 0 auto;
   float: left;
+}
+
+/* main - central article */
+article {
+  width: 58%;
+  float: left;
+  margin: 0 2%;
 }
