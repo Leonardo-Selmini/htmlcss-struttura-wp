@@ -23,6 +23,11 @@
   background-color:#fdffcd;
 }
 
+nav.debug {
+  height: 60px;
+  background-color: #ffebbb;
+}
+
 /* header - header top */
 #header-top { 
   width: 80%;
@@ -33,5 +38,10 @@
 #header-bottom {
   width: 80%;
   margin: 0 auto 20px auto;
+}
 
+/* main - nav */
+nav {
+  width: 80%;
+  margin: 0 auto;
 }
