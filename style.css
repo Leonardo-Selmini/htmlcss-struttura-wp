@@ -6,7 +6,7 @@
   ;
 }
 
-.clear-fix::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both; 
@@ -28,6 +28,11 @@ nav.debug {
   background-color: #ffebbb;
 }
 
+#aside-left.debug {
+  height: 300px;
+  background-color: #ffebbb;
+}
+
 /* header - header top */
 #header-top { 
   width: 80%;
@@ -40,8 +45,22 @@ nav.debug {
   margin: 0 auto 20px auto;
 }
 
+/* main */
+main {
+  width: 80%;
+  background-color: #fcda8d;
+  margin: 0 auto;
+}
+
 /* main - nav */
 nav {
-  width: 80%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* main - aside left */
+#aside-left {
+  width: 20%;
   margin: 0 auto;
+  float: left;
 }
