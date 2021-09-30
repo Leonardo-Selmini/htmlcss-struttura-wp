@@ -19,7 +19,7 @@
 }
 
 #header-bottom.debug{
-  height: 300px;
+  height: 500px;
   background-color:#fdffcd;
 }
 
@@ -29,15 +29,19 @@ nav.debug {
 }
 
 #aside-left.debug {
-  height: 300px;
+  height: 500px;
   background-color: #ffebbb;
 }
 
 article.debug {
-  height: 300px;
+  height: 500px;
   background-color: #ffebbb;
 }
 
+#aside-right.debug {
+  height: 500px;
+  background-color: #ffebbb;
+}
 
 /* header - header top */
 #header-top { 
@@ -55,7 +59,7 @@ article.debug {
 main {
   width: 80%;
   background-color: #fcda8d;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
 /* main - nav */
@@ -72,7 +76,13 @@ nav {
 
 /* main - central article */
 article {
-  width: 58%;
+  width: 56%;
   float: left;
   margin: 0 2%;
+}
+
+/* main - aside right */
+#aside-right {
+  width: 20%;
+  float: left;
 }
