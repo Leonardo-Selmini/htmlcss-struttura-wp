@@ -5,3 +5,33 @@
   box-sizing: border-box
   ;
 }
+
+.clear-fix::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+/* debug section */
+.debug#header-top{
+  height: 100px;
+  background-color:#e0ffcd;
+}
+
+.debug#header-bottom{
+  height: 300px;
+  background-color:#fdffcd;
+}
+
+/* header - header top */
+#header-top { 
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* header - header bottom */
+#header-bottom {
+  width: 80%;
+  margin: 0 auto 20px auto;
+
+}
