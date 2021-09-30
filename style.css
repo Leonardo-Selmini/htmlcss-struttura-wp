@@ -25,22 +25,27 @@
 
 nav.debug {
   height: 60px;
-  background-color: #ffebbb;
+  background-color:#ffebbb;
 }
 
 #aside-left.debug {
   height: 500px;
-  background-color: #ffebbb;
+  background-color:#ffebbb;
 }
 
 article.debug {
   height: 500px;
-  background-color: #ffebbb;
+  background-color:#ffebbb;
 }
 
 #aside-right.debug {
   height: 500px;
-  background-color: #ffebbb;
+  background-color:#ffebbb;
+}
+
+footer.debug{
+  height: 50px;
+  background-color:#ffcab0;
 }
 
 /* header - header top */
@@ -85,4 +90,10 @@ article {
 #aside-right {
   width: 20%;
   float: left;
+}
+
+/* footer */
+footer {
+  width: 80%;
+  margin: 0 auto 20px auto;
 }
