@@ -13,37 +13,37 @@
 }
 
 /* debug section */
-#header-top.debug{
+.debug #header-top {
   height: 100px;
   background-color:#e0ffcd;
 }
 
-#header-bottom.debug{
+.debug #header-bottom {
   height: 500px;
   background-color:#fdffcd;
 }
 
-nav.debug {
+.debug nav {
   height: 60px;
   background-color:#ffebbb;
 }
 
-#aside-left.debug {
+.debug #aside-left {
   height: 500px;
   background-color:#ffebbb;
 }
 
-article.debug {
+.debug article {
   height: 500px;
   background-color:#ffebbb;
 }
 
-#aside-right.debug {
+.debug #aside-right {
   height: 500px;
   background-color:#ffebbb;
 }
 
-footer.debug{
+.debug footer {
   height: 50px;
   background-color:#ffcab0;
 }
